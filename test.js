@@ -1,4 +1,5 @@
 const assert = require('assert');
+Object.freeze(assert);
 const SmartCalculator = require('./src/index');
 
 describe('SmartCalculator', () => {
