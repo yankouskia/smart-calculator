@@ -276,7 +276,7 @@ describe('SmartCalculator', () => {
       .multiply(2)
       .multiply(1);
   
-    assert.equal(value, 16);
+    assert.equal(value, 32);
   });
   
   it('21', () => {
@@ -330,7 +330,7 @@ describe('SmartCalculator', () => {
       .pow(2)
       .add(97);
   
-    assert.equal(value, 102);
+    assert.equal(value, 122);
   });
   
   it('25', () => {
@@ -360,7 +360,7 @@ describe('SmartCalculator', () => {
       .pow(1)
       .pow(2);
   
-    assert.equal(value, -111);
+    assert.equal(value, -7593);
   });
   
   it('27', () => {
@@ -1183,7 +1183,7 @@ describe('SmartCalculator', () => {
       .pow(1)
       .pow(2);
   
-    assert.equal(value, 10);
+    assert.equal(value, 100);
   });
   
   it('85', () => {
@@ -1534,7 +1534,7 @@ describe('SmartCalculator', () => {
       .pow(2)
       .subtract(52);
   
-    assert.equal(value, 118);
+    assert.equal(value, -331634);
   });
   
   it('111', () => {
@@ -1868,7 +1868,7 @@ describe('SmartCalculator', () => {
       .subtract(82)
       .multiply(1);
   
-    assert.equal(value, -123);
+    assert.equal(value, -2775);
   });
   
   it('133', () => {
@@ -1984,7 +1984,7 @@ describe('SmartCalculator', () => {
       .pow(2)
       .multiply(1);
   
-    assert.equal(value, 156);
+    assert.equal(value, 302);
   });
   
   it('141', () => {
@@ -3424,7 +3424,7 @@ describe('SmartCalculator', () => {
       .multiply(2)
       .add(24);
   
-    assert.equal(value, 232);
+    assert.equal(value, 8044);
   });
   
   it('244', () => {
@@ -3492,7 +3492,7 @@ describe('SmartCalculator', () => {
       .pow(1)
       .pow(2);
   
-    assert.equal(value, -108);
+    assert.equal(value, -758);
   });
   
   it('248', () => {
@@ -3658,7 +3658,7 @@ describe('SmartCalculator', () => {
       .pow(1)
       .pow(2);
   
-    assert.equal(value, 40);
+    assert.equal(value, 1162);
   });
   
   it('259', () => {
@@ -3677,7 +3677,7 @@ describe('SmartCalculator', () => {
       .multiply(1)
       .subtract(93);
   
-    assert.equal(value, -117);
+    assert.equal(value, -97);
   });
   
   it('260', () => {
@@ -3746,7 +3746,7 @@ describe('SmartCalculator', () => {
       .subtract(1)
       .pow(1);
   
-    assert.equal(value, 53);
+    assert.equal(value, 739);
   });
   
   it('265', () => {
@@ -3804,7 +3804,7 @@ describe('SmartCalculator', () => {
       .multiply(1)
       .subtract(9);
   
-    assert.equal(value, -67);
+    assert.equal(value, -2560027);
   });
   
   it('271', () => {
@@ -3874,7 +3874,7 @@ describe('SmartCalculator', () => {
       .pow(2)
       .add(50);
   
-    assert.equal(value, -2);
+    assert.equal(value, -3542);
   });
   
   it('276', () => {
@@ -3905,7 +3905,7 @@ describe('SmartCalculator', () => {
       .pow(2)
       .pow(1);
   
-    assert.equal(value, 8);
+    assert.equal(value, 64);
   });
   
   it('278', () => {
@@ -4156,7 +4156,7 @@ describe('SmartCalculator', () => {
       .pow(1)
       .pow(2);
   
-    assert.equal(value, -17);
+    assert.equal(value, -5419);
   });
   
   it('295', () => {
