@@ -15,7 +15,7 @@ class SmartCalculator {
     // your implementation
   }
 
-  devide(number) {
+  divide(number) {
     // your implementation
   }
 

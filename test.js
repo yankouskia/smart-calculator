@@ -51,7 +51,7 @@ describe('SmartCalculator', () => {
     const value = calculator
       .add(2)
       .add(4)
-      .devide(4);
+      .divide(4);
 
     assert.equal(value, 5);
   });
@@ -61,11 +61,11 @@ describe('SmartCalculator', () => {
 
     const value = calculator
       .add(4)
-      .devide(2)
+      .divide(2)
       .add(4)
-      .devide(4)
+      .divide(4)
       .add(6)
-      .devide(3);
+      .divide(3);
 
     assert.equal(value, 7);
   });
