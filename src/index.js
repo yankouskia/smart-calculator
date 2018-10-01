@@ -20,7 +20,7 @@ class SmartCalculator {
     this.oper.push({
       num:number,
       op:(a,b)=>a-b,
-      pr:1
+      pr:2
     })
   return this;
   }
@@ -73,7 +73,7 @@ class SmartCalculator {
       });
       console.log(this.oper);
      
-      for(let p=5;p>=1;p--){
+      for(let p=5;p>1;p--){
         for(let i=1;i<this.oper.length;i++){
           if(this.oper[i].pr===p){
             let fun = this.oper[i].op;
@@ -81,8 +81,10 @@ class SmartCalculator {
             this.oper.splice(i,1);
             i--;
           }
+          
          
         }
+        console.log(this.oper);
       }
      
       
