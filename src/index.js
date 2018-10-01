@@ -55,6 +55,7 @@ class SmartCalculator {
     let fun = this.oper[ind-1].op;
     return fun(this.oper[ind].num,num);
   }
+  //count 
   valueOf(){
    let res = 0;
     
