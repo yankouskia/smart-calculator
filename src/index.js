@@ -38,7 +38,7 @@ class SmartCalculator {
     this.oper.push({
       num:number,
       op:(a,b)=>a/b,
-      pr:3
+      pr:4
     })
     return this;
   }
